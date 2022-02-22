@@ -1,0 +1,2 @@
+C:\Git\Personal\HackerRank Practice\HackerRankPractice\HackerRankPractice\obj\Debug\HackerRankPractice.csproj.AssemblyReference.cache
+C:\Git\Personal\HackerRank Practice\HackerRankPractice\HackerRankPractice\obj\Debug\HackerRankPractice.csproj.CoreCompileInputs.cache
