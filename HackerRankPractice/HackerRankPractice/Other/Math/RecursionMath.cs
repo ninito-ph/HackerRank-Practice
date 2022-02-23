@@ -16,10 +16,12 @@ namespace HackerRankPractice.Other
 
 		public static int GetTermOfFibonacci(int term)
 		{
-			if (term < 0) throw new ArgumentOutOfRangeException(nameof(term));
-			if (term < 3) return 1;
-
-			return GetTermOfFibonacci(term - 2) + GetTermOfFibonacci(term - 1);
+			return term switch
+			{
+				< 0 => throw new ArgumentOutOfRangeException(nameof(term)),
+				< 3 => 1,
+				_ => GetTermOfFibonacci(term - 2) + GetTermOfFibonacci(term - 1)
+			};
 		}
 	}
 }
