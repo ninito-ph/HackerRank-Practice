@@ -2,7 +2,7 @@
 
 namespace HackerRankPractice.Other
 {
-	public class Math
+	public class RecursionMath
 	{
 		public static int GetFactorialOf(int number)
 		{
